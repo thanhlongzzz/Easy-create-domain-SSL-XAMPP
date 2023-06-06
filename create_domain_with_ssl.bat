@@ -51,7 +51,7 @@ REM Restart Apache
 REM echo Restarting Apache...
 REM httpd -k restart
 
-echo Done.
+echo Done. stopping XAMPP...., need restart again
 cd %path_to_xampp%
 "%path_to_xampp%/apache/conf/ssl.crt/server_%domain%.crt"
 "%path_to_xampp%/xampp_stop.exe"
